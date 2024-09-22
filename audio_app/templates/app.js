@@ -36,8 +36,8 @@ function startRecording() {
 }
 
 function sendAudio(audioBlob) {
-    let base_url = "wss://localhost:8000/";
-    if (PROD_URL != null) {
+    let base_url = "ws://localhost:8000/";
+    if (PROD_URL != null && PROD_URL != "") {
         base_url = PROD_URL;
     }
     const url = base_url + "ws/audio/";

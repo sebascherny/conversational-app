@@ -17,7 +17,7 @@ def get_gpt_response(prompt):
         "model": "gpt-3.5-turbo",
         "max_tokens": 150,
         "messages": [
-            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "system", "content": "You are a helpful assistant. Always answer in English simulating you are a human."},
             {"role": "user", "content": prompt},
         ],
     }

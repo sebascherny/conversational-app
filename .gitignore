@@ -2,5 +2,5 @@ audio_app/env/
 __pycache__
 audio_app/db.sqlite3
 audio_app/app/.env
-
+audio_app/.env
 
