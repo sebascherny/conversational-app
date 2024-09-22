@@ -30,7 +30,7 @@ Go to `http://127.0.0.1:8000/` and you can start using the app as a user.
 
 ## Deploying
 
-One ease and fast way to deploy is using [ngrok](https://ngrok.com/) . Follow the steps to install and have it running.
+One easy and fast way to deploy is using [ngrok](https://ngrok.com/) . Follow the steps to install and have it running.
 That will expose your local host and port into the public web, and it will give you a public url where you can reach your local app from outside.
 Add the line `export PROD_URL=https://NGROK-ID.ngrok-free.app/` to the .env file, re-run `source .env`, and re-run the app. You should be ready to access the `ngrok` public url and have it working properly.
 
