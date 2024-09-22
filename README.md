@@ -26,6 +26,8 @@ python manage.py runserver
 
 This will create the `db.sqlite3` file for the database, to store AudioResponse objects that collect the transcription of the audio and the text response that the LLM generated.
 
+Go to `http://127.0.0.1:8000/` and you can start using the app as a user.
+
 ## Deploying
 
 One ease and fast way to deploy is using [ngrok](https://ngrok.com/) . Follow the steps to install and have it running.
