@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio App</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>Audio to Text with GPT-3.5</h1>
+        <button id="recordBtn">Record Audio</button>
+        <p id="status">Click the button to start recording.</p>
+        <audio id="responseAudio" controls></audio>
+    </div>
+    <script>
+        let PROD_URL = "{{PROD_URL}}";
+    </script>
+    <script src="static/app.js"></script>
+</body>
+
+</html>
